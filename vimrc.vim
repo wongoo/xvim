@@ -11,8 +11,6 @@ if has("gui_running")
     elseif has("gui_macvim")
         set guifont=monofur\ for\ Powerline:h15
         set guifontwide=STHeiti:h15
-    elseif has("gui_kde")
-        " todo
     elseif has("gui_win32")
         set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
         set guifontwide=Microsoft\ YaHei\ UI:h12
@@ -208,10 +206,10 @@ let g:airline_mode_map = {
       \ 'c'  : '命令行',
       \ 'v'  : '可视',
       \ 'V'  : '可视',
-      \ ''   : '可视',
+      \ ''  : '可视',
       \ 's'  : '选择',
       \ 'S'  : '选择',
-      \ ''   : '选择',
+      \ ''  : '选择',
       \ }
 
 set laststatus=2
