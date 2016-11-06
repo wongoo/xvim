@@ -45,7 +45,7 @@ brew install ctags
 
 ### vim-go
 vim-go插件依赖一大堆go程序，可以通过运行`:GoInstallBinaries`来自行安装，
-前提是你已经正确安装go、git和mercurial。而且有一部分go程序源代码处在墙外面。
+前提是你已经正确安装go、git。而且有一部分go程序源代码处在墙外面。
 
 ### powerline-fonts
 airline需要使用到这些字体，用于美化状态栏。
@@ -83,4 +83,4 @@ vim +PluginIntall
 
 ## 版权
 
-本项目采用[MIT](http://opensource.org/licenses/MIT)开源授权许可证，完整的授权说明可在[LICENSE](LICENSE)文件中找到。
+本项目采用[MIT](http://opensource.org/licenses/MIT)开源授权许可证。
