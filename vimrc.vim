@@ -97,7 +97,7 @@ set number          "行号
 set nobackup        "无备份
 set fileformat=unix "换行使用unix方式
 set fileencodings=utf-8,gbk "使用utf-8或gbk打开文件
-set encodings=utf-8
+set encoding=utf-8
 set cursorline      "高亮显示当前行
 set cursorcolumn    "高亮显示当前列
 set nu              "显示行号
