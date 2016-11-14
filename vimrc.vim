@@ -46,6 +46,7 @@ Plugin 'scrooloose/nerdtree'                "文件浏览，文件树目录
 Plugin 'scrooloose/nerdcommenter'           "快速加减注释
 Plugin 'scrooloose/syntastic'               "代码错误检测，其它应该也类似
 Plugin 'Xuyuanp/nerdtree-git-plugin'        "Git插件
+Plugin 'airblade/vim-gitgutter'             "Git插件
 Plugin 'majutsushi/tagbar'                  "标签列表
 Plugin 'kien/ctrlp.vim'                     "文件搜索,杀手级,重新定义了编辑器打开文件的方式
 Plugin 'vim-scripts/TaskList.vim'           "快速跳转到TODO列表
@@ -58,7 +59,8 @@ Plugin 'tpope/vim-repeat'                   "配合使用增强版命令重复
 Plugin 'tpope/vim-sensible'                 "基本的Vim设置
 Plugin 'mhinz/vim-startify'                 "更改开始界面的插件
 Plugin 'fatih/vim-go'                       "GO语言
-Plugin 'bling/vim-airline'                  "状态栏
+Plugin 'vim-airline/vim-airline'            "状态栏
+Plugin 'vim-airline/vim-airline-themes'     "状态栏
 Plugin 'junegunn/vim-easy-align'            "方便的按分隔符对齐,比如=号
 Plugin 'ConradIrwin/vim-bracketed-paste'    "插入模式下粘贴内容，不会有任何变形 :set paste
 "Plugin 'fholgado/minibufexpl.vim'           "多文件切换，也可使用鼠标双击相应文件名进行切换
