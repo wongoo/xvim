@@ -114,6 +114,7 @@ set softtabstop=4
 set backspace=indent,eol,start
 " 显示一些不显示的空白字符
 set listchars=tab:>-,eol:$,trail:-  "通过 set list和 set nolist控制是否显示或是用set list!切换显示
+set paste
 
 "set foldmethod=indent     "indent 折叠方式
 "set foldmethod=marker     "marker 折叠方式
@@ -200,20 +201,6 @@ if g:airline_powerline_fonts == 0
     let g:airline_symbols.whitespace = 'Ξ'
     let g:airline_symbols.readonly = ''
 endif
-
-let g:airline_mode_map = {
-      \ '__' : '-',
-      \ 'n'  : '标准',
-      \ 'i'  : '插入',
-      \ 'R'  : '替换',
-      \ 'c'  : '命令行',
-      \ 'v'  : '可视',
-      \ 'V'  : '可视',
-      \ ''  : '可视',
-      \ 's'  : '选择',
-      \ 'S'  : '选择',
-      \ ''  : '选择',
-      \ }
 
 set laststatus=2
 
