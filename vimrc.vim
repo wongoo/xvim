@@ -114,7 +114,6 @@ set softtabstop=4
 set backspace=indent,eol,start
 " 显示一些不显示的空白字符
 set listchars=tab:>-,eol:$,trail:-  "通过 set list和 set nolist控制是否显示或是用set list!切换显示
-set paste
 
 "set foldmethod=indent     "indent 折叠方式
 "set foldmethod=marker     "marker 折叠方式
