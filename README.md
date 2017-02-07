@@ -22,9 +22,9 @@ mac osx下vim7.4或是对应版本的macvim。
  `<C-Tab>`     | 切换到下一个Buffer/ `<C-S-Tab>`   | 切换到上一个Buffer
  `jj`          | ESC
  `<C-g>`       | ESC
- 'gd'         |Go符号跳转
- '<C-o>'      |向后跳转
- '<C-t>'      |多次会跳
+ `gd`        |Go符号跳转
+ `<C-o>`      |向后跳转
+ `<C-t>`      |多次会跳
  
 ## 依赖的软件
 
