@@ -24,8 +24,9 @@ mac osx下vim7.4或是对应版本的macvim。
  `<C-g>`       | ESC
  `gd`        |Go符号跳转
  `<C-o>`      |向后跳转
- `<C-t>`      |多次会跳
+ `<C-t>`      |多次回跳
  
+ 更多快捷键参考:help vim-go
 ## 依赖的软件
 
 ### vim-go
