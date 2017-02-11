@@ -4,14 +4,14 @@ Vim
 自用的一个vim配置文件，适用于`Go`语言环境。
 
 适用版本：
-linux下只通过vim7.4的测试。
-mac osx下vim7.4或是对应版本的macvim。
+linux下只通过vim7.4+的测试。
+macOS下vim7.4+或是对应版本的macvim。
 
 ## 快捷键
 
 自定义的快捷键:
 
- 快捷键        | 对应操作
+ 快捷键         | 对应操作
  ------------- | :---------
  `<F7>`        | 打开文件浏览窗口(NERDTree)
  `<F8>`        | 打开类/函数视图(tagbar)
@@ -19,19 +19,19 @@ mac osx下vim7.4或是对应版本的macvim。
  `<C-k>`       | 窗口下移
  `<C-h>`       | 窗口左移
  `<C-l>`       | 窗口右移
- `<C-Tab>`     | 切换到下一个Buffer/ `<C-S-Tab>`   | 切换到上一个Buffer
+ `<C-Tab>`     | 切换到下一个Buffer 
+ `<C-S-Tab>`   | 切换到上一个Buffer
  `jj`          | ESC
  `<C-g>`       | ESC
- `gd`        |Go符号跳转
- `<C-o>`      |向后跳转
- `<C-t>`      |多次回跳
+ `gd`          | Go符号跳转
+ `<C-o>`       | 向后跳转
+ `<C-t>`       | 多次回跳
  
- 更多快捷键参考:help vim-go
 ## 依赖的软件
 
 ### vim-go
 - Vundle：依赖git从服务器上下载插件；
-- vim-go：中的`:GoInstallBinaries`命令依赖`go get`，而`go get`依赖git和mercurial；
+- vim-go：中的`:GoInstallBinaries`命令依赖`go get`，而`go get`依赖git，请先安装git
 
 ### ctags
 majutsushi/tagbar插件依赖ctags来解析。可以从以下地址下载：
@@ -64,7 +64,7 @@ cd fonts
 
 ## 安装
 
-### linux & osx
+### linux & macOS
 ```shell
 # 下载xvim
 cd ~
